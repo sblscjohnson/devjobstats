@@ -1,0 +1,81 @@
+.Home-parent {
+  text-align: center;
+}
+
+.serverfarm-image {
+  background-image: url('./../../resources/server-farm.png');
+  background-size: cover;
+  margin: auto;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-title {
+  font-size: 24px;
+  background-color: black;
+  margin: 0px auto 0px auto;
+  color: #20C20E;
+  padding: 25px 15px 25px 15px;
+  width: 84%;
+  position: relative;
+  top: 25px;
+  border-radius: 10px;
+}
+
+.typed {
+  display: inline;
+  margin: auto 0px auto 0px;
+}
+
+.arrow-image {
+  width: 50px;
+  height: 75px;
+  margin: 361px auto;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: 2px black solid;
+}
+
+.arrow-image:hover {
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.cursor {
+  color: purple;
+  font-weight: 900;
+}
+
+.hello {
+  position: relative;
+  margin: -10px 0px -10px 0px;
+  top: 2px;
+  height: 40px;
+}
+
+.Home-paragraph {
+  margin: 0px auto 75px auto;
+  font-size: 18px;
+  position: relative;
+  top: 100px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .serverfarm-image {
+  }
+  .Home-title {
+    font-size: 18px;
+    height: 50%;
+  }
+  .hello {
+    height: 25px;
+    position: relative;
+    margin: -5px 0px -5px 0px;
+  }
+  .arrow-image {
+    position: relative;
+    bottom: 50px;
+  }
+}
