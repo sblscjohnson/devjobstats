@@ -2,14 +2,14 @@
   text-align: center;
 }
 
-.serverfarm-image {
+/* .serverfarm-image {
   background-image: url('./../../resources/server-farm.png');
   background-size: cover;
   margin: auto;
   height: 525px;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .Home-title {
   font-size: 24px;
@@ -17,7 +17,7 @@
   margin: 0px auto 0px auto;
   color: #20C20E;
   padding: 25px 15px 25px 15px;
-  width: 84%;
+  width: 85%;
   position: relative;
   top: 25px;
   border-radius: 10px;
@@ -27,7 +27,7 @@
   display: inline;
   margin: auto 0px auto 0px;
 }
-
+/* 
 .arrow-image {
   width: 50px;
   height: 75px;
@@ -40,7 +40,7 @@
 
 .arrow-image:hover {
   background-color: rgba(245, 245, 245, 0.5);
-}
+} */
 
 .cursor {
   color: purple;
@@ -55,16 +55,15 @@
 }
 
 .Home-paragraph {
+  width: 84%;
   margin: 0px auto 75px auto;
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   top: 100px;
   letter-spacing: 1px;
 }
 
 @media (max-width: 600px) {
-  .serverfarm-image {
-  }
   .Home-title {
     font-size: 18px;
     height: 50%;

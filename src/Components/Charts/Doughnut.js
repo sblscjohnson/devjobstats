@@ -1,7 +1,7 @@
 import React from 'react'
 var DoughnutChart = require("react-chartjs").Doughnut;
 
-class Results extends React.Component {
+class Doughnut extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -39,16 +39,13 @@ class Results extends React.Component {
       ]
     }
   }
+  
 
   render() {
-    document.title = 'Results'
-
     return (
-      <div className='content'>
-        <DoughnutChart data={this.state.data} />
-      </div>
+      <DoughnutChart data={this.state.data} />
     )
   }
-}
+};
 
-export default Results
+export default Doughnut

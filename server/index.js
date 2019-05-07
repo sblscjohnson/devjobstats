@@ -10,6 +10,8 @@ const massive = require('massive')
 
 app.use(json())
 
+
+
 massive(DB_CONNECTION)
 .then(db => {
   app.set('db', db)

@@ -12,7 +12,6 @@ const Navbar = (props) => {
         <Link to='/Survey'>Survey</Link>
         <Link to='/Results'>Results</Link>
       </div>
-      <hr />
     </div>
   )
 }

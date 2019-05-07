@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 
 .App-parent {
   height: 100vh;
-  color: black;
-  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(245, 245, 245);
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
 }
 
 .content {
@@ -14,24 +15,23 @@
 }
 
 a:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 a:hover {
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .bluelink:link {
-  color: rgb(0, 132, 255);
+  color: #028cd1;
 }
 .bluelink:hover {
-  color: rgba(0, 132, 255, 0.5);
+  /* color: #028cd1; */
 }
 .bluelink:visited {
-  color: rgb(0, 132, 255);
+  color: #028cd1;
 }
